@@ -41,12 +41,4 @@ bool isPalindrome(int x) {
     free(arr); // Free dynamically allocated memory
     return true; // If all pairs match, it's a palindrome
 }
-int main() {
-    bool check = isPalindrome(0);
-    if (check)
-        printf("Palindrome\n");
-    else
-        printf("Not Palindrome\n");
-    
-    return 0;
-}
+
